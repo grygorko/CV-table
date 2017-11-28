@@ -1,18 +1,26 @@
 body {
-  display: block;
   background-color: #b7b7b7;
+  padding: 20px 30px;
 }
+
 div {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   background-color: #f1f1f1;
-  padding-top: 20px;
 }
 .resume {
   width: 100%
 }
 .resume h1 {
-  font-size: 2.5em;
-  width: 10%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 2em;
+  width: 120px;
+  padding: 70px 10px 10px 10px;
+  margin-left: 20px;
+  margin-top: 0;
   background-color: #35A6FF;
 }
 .work {
@@ -22,4 +30,54 @@ div {
 .play {
   width: 50%;
   float: right;
+}
+table {
+  width: 100%;
+  margin-left: 20px;
+  margin-bottom: 120px;
+}
+thead th {
+  color: #35A6FF;
+  font-size: 4em;
+  font-family: Helvetica, sans-serif;
+  caption-side: bottom;
+  text-transform: uppercase;
+}
+thead td {
+  color: black;
+  font-size: 2em;
+  font-family: Helvetica, sans-serif;
+  caption-side: top;
+  text-transform: uppercase;
+}
+.year {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  width: 300px;
+  vertical-align: top;
+}
+.info {
+  width: 70%;
+  vertical-align: top;
+  padding: 10px;
+}
+.info h3 {
+  color: #35A6FF;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.info h4 {
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  margin: 0 auto;
+}
+.info p {
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  margin: 0 auto;
+}
+tbody {
+  margin-top: 40px;
 }
